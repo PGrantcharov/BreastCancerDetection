@@ -1,14 +1,29 @@
 # Breast Cancer Detection
-Using image recognition to identify cancer regions in lymph node cross sections (from CAMELYON dataset).
+In this project, we used image recognition to identify cancer regions in lymph node cross sections (from CAMELYON dataset).
+
+Our methods consisted of cutting up images into 300-by-300 pixel windows (non-overlapping), and running them through a multi-input deep learning model. Full methodology is explained under `Project Slideshow` below.
+
+Our final test set accuracy, recall, and precision scores were 0.88, 0.80, and 0.90, respectively. Results on a test set image are shown below.
+
+### Predicted cancer windows are tinted blue
 ![Alt text](Images/positives.png?raw=true "Positives")
+
+### Heatmap:
+#### TP = green, TN = blue, FP = yellow, FN = red
 ![Alt text](Images/heatmap.png?raw=true "Heatmap")
 
 ## Files
 `FullPreprocessing.ipynb` contains all preprocessing code
+
 `MultiImage.ipynb` contains model development code
+
 `Results.ipynb` contains all preprocessing code
+
 `test_prediction.csv` contains all predictions on test sections using just the deep learning model
+
 `lr_prediction.ipynb` contains all predictions on test set using the deep learning model AND the logistic regression add-on
+
+# Project Slideshow
 
 ## Overview
 ![Alt text](Images/overview.png?raw=true "Overview")
