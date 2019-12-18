@@ -21,7 +21,7 @@ Our final test set accuracy, recall, and precision scores were 0.88, 0.80, and 0
 
 `test_prediction.csv` contains all predictions on test sections using just the deep learning model
 
-`lr_prediction.ipynb` contains all predictions on test set using the deep learning model AND the logistic regression add-on
+`lr_prediction.csv` contains all predictions on test set using the deep learning model AND the logistic regression add-on
 
 # Project Slideshow
 
