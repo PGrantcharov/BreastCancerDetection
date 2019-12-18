@@ -17,11 +17,14 @@ Our final test set accuracy, recall, and precision scores were 0.88, 0.80, and 0
 
 `MultiImage.ipynb` contains model development code
 
-`Results.ipynb` contains all preprocessing code
+`sklearn_prediction.ipynb` contains code that uses DNN output as features for classifier incorporating predictions of neighboring windows
+
+`Results.ipynb` contains visualization code and result examination
 
 `test_prediction.csv` contains all predictions on test sections using just the deep learning model
 
 `lr_prediction.csv` contains all predictions on test set using the deep learning model AND the logistic regression add-on
+
 
 # Project Slideshow
 
